@@ -1,14 +1,5 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
-
-const data = [
-  "girls aged 20-22 years studing for bachelores degree in a tier3 college having 90% chances of getting married right after college with below values",
-  "humility",
-  "self-driven",
-  "Resilience",
-  "Paying it forword",
-];
 
 export default function WHO() {
   return (
@@ -16,13 +7,16 @@ export default function WHO() {
       <div className="div-col">
         <p className="tag-head">WHO</p>
         <ul className="col-ul">
-          {data.map((item, index) => (
-            <li>{item}</li>
-          ))}
+          <li>
+            Girls aged <strong>20-22 years</strong> studying for bachelor degree
+            in a <strong>tier3 college</strong> having 90% chances of getting
+            married right after college with below values
+          </li>
+          <li>Humility</li>
+          <li>Self-driven</li>
+          <li>Resilience</li>
+          <li>Paying it forward</li>
         </ul>
-        <Link to="/why" className="button-next">
-          <button>WHY</button>
-        </Link>
       </div>
     </>
   );

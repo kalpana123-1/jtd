@@ -12,27 +12,14 @@ const HEADER = () => {
           </Link>
         </div>
         <div className="nav_links">
-          <Link to="/who">
-            <button>WHO</button>
-          </Link>
-          <Link to="/why">
-            <button>WHY</button>
-          </Link>
-          <Link to="/what">
-            <button>WHAT</button>
-          </Link>
-          <Link to="/how">
-            <button>HOW</button>
-          </Link>
-          <Link to="/when">
-            <button>WHEN</button>
-          </Link>
-          <Link to="/where">
-            <button>WHERE</button>
-          </Link>
+          <Link to="/who">WHO</Link>
+          <Link to="/why">WHY</Link>
+          <Link to="/what">WHAT</Link>
+          <Link to="/how">HOW</Link>
+          <Link to="/when">WHEN</Link>
+          <Link to="/where">WHERE</Link>
         </div>
       </div>
-      ;
     </>
   );
 };

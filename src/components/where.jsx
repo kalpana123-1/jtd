@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const data = ["Palamaner - Andhra pradesh  (town 150kms from Banglore"];
+const data = ["Palamaner - Andhra pradesh  (a town 150kms from Banglore)"];
 
 export default function WHERE() {
   return (
@@ -12,9 +11,6 @@ export default function WHERE() {
           <li>{item}</li>
         ))}
       </ul>
-      <Link to="/" className="button-next">
-        <button>HOME</button>
-      </Link>
     </div>
   );
 }

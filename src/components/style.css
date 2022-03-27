@@ -31,30 +31,22 @@
   font-size: 25px;
 }
 
+
 .main{
-  height: 100vh;
-  width: 100vw;
-}
-.home{
+  padding-top: 50px;
   display: flex;
   justify-content:space-around;
-  height: 130px;
-  width: full;
 }
-.logo1{
-  width: 150px;
-  height: 150px;
-  margin-top: 10px;
-}
+
 .logo2{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
   margin-top: 15px;
 }
 .content{
   text-align: center;
-  padding: 30px 0px;
-  width: 1000px;
+  padding: 30px 50px; 
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 3px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   margin-top: 80px;
@@ -65,7 +57,7 @@
 }
 
 .content > p{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .content > p > em{
@@ -87,6 +79,8 @@
 
 
 .nav_container {
+  width: 98%;
+  margin: auto;
   display: flex;
 }
 .nav_links {
@@ -96,12 +90,16 @@
 }
     .nav_links> a {
       text-decoration: none;
+      font-weight: bolder;
       margin: 0px 40px;
-      font-size: 14px;
+      font-size: 20px;
       padding: 9px 0;
+      color: black;
     }
 
-   
+li{
+  padding-bottom: 8px;
+}
 
 .nav-logo{
   width: 100px;
