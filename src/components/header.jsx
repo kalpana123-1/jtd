@@ -6,7 +6,11 @@ const HEADER = () => {
   return (
     <>
       <div className="nav_container">
-        <div className="nav_logo"></div>
+        <div className="nav_logo">
+          <Link to="/">
+            <img src="jtb.jpeg" className="nav-logo" alt="jtb_logo"></img>
+          </Link>
+        </div>
         <div className="nav_links">
           <Link to="/who">
             <button>WHO</button>

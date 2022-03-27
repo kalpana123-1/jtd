@@ -1,7 +1,7 @@
 .div-col{
   width: 1000px;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .tag-head{
@@ -72,8 +72,6 @@
   font-weight: bolder;
 }
 
-
-
 .buttons{
   display: flex;
   flex-direction: column;
@@ -90,28 +88,22 @@
 
 .nav_container {
   display: flex;
-  padding: 30px;
 }
-.nav_container >.nav_links {
+.nav_links {
     display: flex;
     margin-left: auto;
+    margin-top: 30px;
 }
-    .nav_container>  .nav_links> a {
+    .nav_links> a {
       text-decoration: none;
-      color:#190134;
       margin: 0px 40px;
       font-size: 14px;
       padding: 9px 0;
     }
 
-      .nav_container > .nav_links> .nav_button>button {
-        background: #fa9400;
-        border: 1px solid #fa9400;
-        padding: 9px 20px;
-        border-radius: 1px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        color: white;
-      }
+   
 
+.nav-logo{
+  width: 100px;
+  height: 100px;
+}
