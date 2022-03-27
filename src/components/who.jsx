@@ -3,13 +3,11 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 const data = [
-  "20-21",
-  "determination",
-  "Data Driven",
-  "Humble",
-  "Resilient",
-  "Patience",
-  "Curious",
+  "girls aged 20-22 years studing for bachelores degree in a tier3 college having 90% chances of getting married right after college with below values",
+  "humility",
+  "self-driven",
+  "Resilience",
+  "Paying it forword",
 ];
 
 export default function WHO() {
@@ -22,8 +20,8 @@ export default function WHO() {
             <li>{item}</li>
           ))}
         </ul>
-        <Link to="/what" className="button-next">
-          WHAT
+        <Link to="/why" className="button-next">
+          <button>WHY</button>
         </Link>
       </div>
     </>
